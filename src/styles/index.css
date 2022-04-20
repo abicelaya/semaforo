@@ -10,3 +10,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo {
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.luz {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   
+}
+
+
+
+.rojo {background-color: red;}
+.naranja {background-color: orange;}
+.verde {background-color: green;}
+
+.brillo {
+    box-shadow: 0 0 9px 4px rgb(81, 74, 175);
+}
