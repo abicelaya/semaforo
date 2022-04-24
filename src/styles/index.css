@@ -15,22 +15,35 @@
     display: inline-block;
     padding: 10px;
     margin: 10px;
+    border-radius: 2rem;
+}
+
+
+.luzRoja {
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;}
+
+.luzAmarilla {background-color: rgb(253, 234, 61);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;}
+
+.luzVerde {background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;}
+
+.brillo {
+    box-shadow: 0px 0px 65px 13px rgb(253, 237, 12) !important;
     
 }
 
-.luz {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-   
-}
-
-
-
-.rojo {background-color: red;}
-.naranja {background-color: orange;}
-.verde {background-color: green;}
-
-.brillo {
-    box-shadow: 0 0 9px 4px rgb(81, 74, 175);
+.palo {
+    background: black;
+    width: 20px;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: -10px;
 }
